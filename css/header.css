@@ -9,3 +9,35 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
+header {
+    background-color: var(--color-bg-primary);
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 50px;
+}
+
+.head-text {
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .head-text {
+        font-size: 18px;
+    }
+    
+    .hidden {
+        display: none;
+    }
+}
