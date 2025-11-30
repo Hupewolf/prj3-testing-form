@@ -40,7 +40,7 @@ header {
     color: var(--color-primary);
     font-weight: 500;
     font-size: 32px;
-    font-family: "Kaushan Script", cursive;
+    font-family: "Kaushan Script";
     font-style: italic;
 }
 
