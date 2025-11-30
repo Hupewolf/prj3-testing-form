@@ -27,31 +27,31 @@
         <section class="formSection">
             <div class="wrapper">
                 <div class="left">
-                    <form action="">
+                    <form action="" id="formDK">
                         <h1>Đăng ký test sản phẩm</h1>
                         <div>
                             <label for="">Họ</label>
-                            <input type="text" class="padd" required/>
+                            <input type="text" id="first" class="padd" required/>
                         </div>
                         <div>
                             <label for="">Tên</label>
-                            <input type="text" class="padd" required/>
+                            <input type="text" id="name" class="padd" required/>
                         </div>
                         <div>
                             <label for="">Số điện thoại</label>
-                            <input type="number" name="" id="" class="padd" required/>
+                            <input type="number" name="" id="phone" class="padd" required/>
                         </div>
                         <div>
                             <label for="">Email</label>
-                            <input type="email" name="" id="" class="padd" required/>
+                            <input type="email" name="" id="email" class="padd" required/>
                         </div>
 
                         <div>
                             <label for="">Mô tả </label>
-                            <textarea name="" id="" class="padd"></textarea>
+                            <textarea name="" id="note" class="padd"></textarea>
                         </div>
 
-                        <button>Gửi</button>
+                        <button type="submit">Gửi</button>
                     </form>
                 </div>
                 <div class="right">
@@ -78,6 +78,7 @@
                     <p class="list-container-table-head-text phone">Số điện thoại</p>
                     <p class="list-container-table-head-text desc">Mô tả kinh nghiệm / Sở thích</p>
                 </div>
+                <div id="result"></div>
                 <div class="list-container-table-row">
                     <p class="list-container-table-row-text name">Nguyễn Văn Hùng</p>
                     <p class="list-container-table-row-text email"><span>Email: </span>hung.nv@example.com</p>
@@ -153,5 +154,6 @@
             <div class="foot-text">&copy; 2025 TESTING . All rights reserved</div>
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
