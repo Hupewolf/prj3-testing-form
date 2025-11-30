@@ -2,16 +2,16 @@ const form = document.getElementById("formDK");
 const resultList = document.getElementById("result");
 
 form.addEventListener("submit", function(e) {
-    e.preventDefault();
+    e.preventDefault(); //Này kiểu khi nhấn xong submit nó không load lại trang để khỏi mất dữ liệu
 
-    // Lấy dữ liệu từ input
+    // Dạ cái này là lấy dữ liệu từ mấy ô nhập
     const first = document.getElementById("first").value;
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const phone = document.getElementById("phone").value;
     const note = document.getElementById("note").value;
 
-    // Tạo một khối mới
+    // Này là kiểu tạo cái ô mới kiểu cái mình mới nhập
     const box = document.createElement("div");
     box.className = "list-container-table-row";
 
@@ -22,7 +22,7 @@ form.addEventListener("submit", function(e) {
         <p class="list-container-table-row-text desc"><span>Kinh nghiệm: </span>${note}</p>
     `;
 
-    // Thêm vào danh sách
+    // Thêm box vào trong resultList kiểu thêm mấy cái nội dung khi gửi submit
     resultList.appendChild(box);
 
     // Xóa form sau khi gửi
