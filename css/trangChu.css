@@ -1,0 +1,129 @@
+:root {
+    --color-primary: #112D4E;
+    --color-bg-primary: #F8F9FA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.formSection {
+    width: 100%;
+    padding: 20px;
+    background: #112D4E;
+}
+
+.formSection .wrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.formSection .wrapper .left {
+    height: 773px;
+    align-items: center;
+    padding: 30px;
+    background: #F8F9FA;
+    border-radius: 12px;
+}
+
+.formSection form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.formSection form h1 {
+    width: 100%;
+    height: 39px;
+    text-align: center;
+    color: #112D4E;
+}
+
+.formSection form div {
+    position: relative;
+    width: 100%;
+    height: 56px;
+    padding: 13px 0 0 0;
+}
+
+.formSection form div label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #112D4E;
+    background: #F8F9FA;
+    position: absolute;
+    left: 12px;
+    top: 0px;
+    padding: 0 5px;
+}
+
+.formSection form div input,
+.formSection form div textarea {
+    height: 100%;
+    width: 100%;
+    background: #F8F9FA;
+    border: 1px solid #112D4E;
+    border-radius: 8px;
+}
+
+.formSection form div textarea {
+    resize: none;
+}
+
+.formSection form div:nth-of-type(1),
+form div:nth-of-type(2) {
+    width: calc((100% - 30px) / 2);
+}
+
+.formSection form div:nth-of-type(5) {
+    height: 278px;
+}
+
+.formSection form button {
+    width: 281px;
+    height: 52px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F8F9FA;
+    background: #112D4E;
+    border-radius: 12px;
+}
+
+.formSection .wrapper .right {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 78px;
+}
+
+.formSection .wrapper .right .right__img {
+    display: inline;
+}
+
+.formSection .wrapper .right .right__img img {
+    width: 687px;
+    height: 648px;
+}
+
+.formSection .wrapper .right .right__gameList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formSection .wrapper .right .right__gameList img {
+    height: 47px;
+}
