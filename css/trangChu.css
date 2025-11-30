@@ -16,12 +16,12 @@
 
 .formSection {
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
     background: #112D4E;
 }
 
 .formSection .wrapper {
-    width: 100%;
+    width: 90%;
     max-width: 1400px;
     margin: auto;
     display: flex;
