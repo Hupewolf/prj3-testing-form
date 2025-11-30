@@ -9,14 +9,13 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-body{
-    background-color: var(--color-primary);
-}
+
 .list{
     width: 100%;
     padding: 63px 0 81px 0;
     display: flex;
     justify-content: center;
+    background-color: var(--color-primary);
 }
 .list-container{
     width: 95%;

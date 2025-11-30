@@ -10,6 +10,10 @@
     font-family: "Inter", sans-serif;
 }
 
+.padd {
+    padding: 0 0 0 15px;
+}
+
 .formSection {
     width: 100%;
     padding: 20px;
@@ -26,6 +30,7 @@
 }
 
 .formSection .wrapper .left {
+    flex: 1;
     height: 773px;
     align-items: center;
     padding: 30px;
@@ -105,18 +110,23 @@ form div:nth-of-type(2) {
 }
 
 .formSection .wrapper .right {
-    display: inline-flex;
+    flex: 1;
+    display: flex;
     flex-direction: column;
     gap: 78px;
+    max-width: 648px;
+    width: 100%;
 }
 
-.formSection .wrapper .right .right__img {
-    display: inline;
-}
-
-.formSection .wrapper .right .right__img img {
-    width: 687px;
+.right-img {
+    width: 100%;
+    max-width: 648px;
     height: 648px;
+    background-image: url('../img/wwebsiteTestingGuild.png');
+    background-size: cover;        
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
 }
 
 .formSection .wrapper .right .right__gameList {
@@ -126,4 +136,22 @@ form div:nth-of-type(2) {
 
 .formSection .wrapper .right .right__gameList img {
     height: 47px;
+}
+
+@media screen and (max-width: 1150px) {
+    .an6 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .an5 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .formSection .wrapper .right {
+        display: none;
+    }
 }

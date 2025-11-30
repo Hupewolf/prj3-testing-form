@@ -1,64 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/trangchu.css" />
+    <link rel="stylesheet" href="css/trangchu.css" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/danhSach.css">
     <title>TESTING</title>
-  </head>
-  <body>
-    <main>
-      <section class="formSection">
-        <div class="wrapper">
-          <div class="left">
-            <form action="">
-              <h1>Đăng ký test sản phẩm</h1>
-              <div>
-                <label for="">Họ</label>
-                <input type="text" />
-              </div>
-              <div>
-                <label for="">Tên</label>
-                <input type="text" />
-              </div>
-              <div>
-                <label for="">Số điện thoại</label>
-                <input type="number" name="" id="" />
-              </div>
-              <div>
-                <label for="">Email</label>
-                <input type="email" name="" id="" />
-              </div>
-
-              <div>
-                <label for="">Mô tả </label>
-                <textarea name="" id=""></textarea>
-              </div>
-
-              <button>Gửi</button>
-            </form>
-          </div>
-          <div class="right">
-            <div class="right__img">
-                <img src="./img/wwebsiteTestingGuild.png" alt="">
-            </div>
-            <div class="right__gameList">
-                <img src="./img/logo/valorant.svg" alt="">
-                <img src="./img/logo/csgo.svg" alt="">
-                <img src="./img/logo/pubgMobile.svg" alt="">
-                <img src="./img/logo/freefire.svg" alt="">
-                <img src="./img/logo/lol.svg" alt="">
-                <img src="./img/logo/fcMobile.svg" alt="">
-            </div>
-          </div>
+</head>
+<body>
+    <header>
+        <div class="inner-head container">
+            <img src="img/logotesting-removebg-preview.png" alt="logo" class="logo">
+            <div class="head-text">Đăng ký việc làm nhanh chóng</div>
+            <div class="hidden"></div>
         </div>
-      </section>
+    </header>
+    <main>
+        <section class="formSection">
+            <div class="wrapper">
+                <div class="left">
+                    <form action="">
+                        <h1>Đăng ký test sản phẩm</h1>
+                        <div>
+                            <label for="">Họ</label>
+                            <input type="text" class="padd" required/>
+                        </div>
+                        <div>
+                            <label for="">Tên</label>
+                            <input type="text" class="padd" required/>
+                        </div>
+                        <div>
+                            <label for="">Số điện thoại</label>
+                            <input type="number" name="" id="" class="padd" required/>
+                        </div>
+                        <div>
+                            <label for="">Email</label>
+                            <input type="email" name="" id="" class="padd" required/>
+                        </div>
+
+                        <div>
+                            <label for="">Mô tả </label>
+                            <textarea name="" id="" class="padd"></textarea>
+                        </div>
+
+                        <button>Gửi</button>
+                    </form>
+                </div>
+                <div class="right">
+                    <div class="right-img"></div>
+                    <div class="right__gameList">
+                        <img src="./img/logo/valorant.svg" alt="" class="an1">
+                        <img src="./img/logo/csgo.svg" alt="" class="an2">
+                        <img src="./img/logo/pubgMobile.svg" alt="" class="an3">
+                        <img src="./img/logo/freefire.svg" alt="" class="an4">
+                        <img src="./img/logo/lol.svg" alt="" class="an5">
+                        <img src="./img/logo/fcMobile.svg" alt="" class="an6">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-  </body>
+    <div class="list">
+        <div class="list-container">
+            <h1 class="list-container-tittle">Danh sách Người đăng ký làm Tester</h1>
+            <div class="list-container-table">
+                <div class="list-container-table-head">
+                    <p class="list-container-table-head-text name">Họ tên</p>
+                    <p class="list-container-table-head-text email">Email</p>
+                    <p class="list-container-table-head-text phone">Số điện thoại</p>
+                    <p class="list-container-table-head-text desc">Mô tả kinh nghiệm / Sở thích</p>
+                </div>
+                <div class="list-container-table-row">
+                    <p class="list-container-table-row-text name">Nguyễn Văn Hùng</p>
+                    <p class="list-container-table-row-text email"><span>Email: </span>hung.nv@example.com</p>
+                    <p class="list-container-table-row-text phone"><span>SĐT: </span>0912345678</p>
+                    <p class="list-container-table-row-text desc"><span>Kinh nghiệm: </span>Từng tham gia test game mobile, thích tìm bug UI/UX.</p>
+                </div>
+                <div class="list-container-table-row">
+                    <p class="list-container-table-row-text name">Trần Thị Mai</p>
+                    <p class="list-container-table-row-text email"><span>Email: </span>mai.tt@example.com</p>
+                    <p class="list-container-table-row-text phone"><span>SĐT: </span>0912345678</p>
+                    <p class="list-container-table-row-text desc"><span>Kinh nghiệm: </span>Có kinh nghiệm test website, thích khám phá sản phẩm mới.</p>
+                </div>
+                <div class="list-container-table-row">
+                    <p class="list-container-table-row-text name">Phạm Minh Khang </p>
+                    <p class="list-container-table-row-text email"><span>Email: </span> MKhang@example.com</p>
+                    <p class="list-container-table-row-text phone"><span>SĐT: </span>0912345678</p>
+                    <p class="list-container-table-row-text desc"><span>Kinh nghiệm: </span>quan tâm test game FPS, từng test vài dự án nhỏ.</p>
+                </div>
+                <div class="list-container-table-row">
+                    <p class="list-container-table-row-text name">Đỗ Ngọc Lâm</p>
+                    <p class="list-container-table-row-text email"><span>Email: </span>am.dn@example.com</p>
+                    <p class="list-container-table-row-text phone"><span>SĐT: </span>0912345678</p>
+                    <p class="list-container-table-row-text desc"><span>Kinh nghiệm: </span>Có hiểu biết cơ bản về HTML/CSS, thích tìm lỗi giao diện.</p>
+                </div>
+                <div class="list-container-table-row">
+                    <p class="list-container-table-row-text name">Lê Quốc Tuấn</p>
+                    <p class="list-container-table-row-text email"><span>Email: </span>tuan.lq@example.com</p>
+                    <p class="list-container-table-row-text phone"><span>SĐT: </span>0912345678</p>
+                    <p class="list-container-table-row-text desc"><span>Kinh nghiệm: </span>thích test game mobile và đưa feedback trải nghiệm người dùng.</p>
+                </div>
+                <div class="list-container-table-row">
+                    <p class="list-container-table-row-text name">Võ Thị Yến</p>
+                    <p class="list-container-table-row-text email"><span>Email: </span>yen.vt@example.com</p>
+                    <p class="list-container-table-row-text phone"><span>SĐT: </span>0912345678</p>
+                    <p class="list-container-table-row-text desc"><span>Kinh nghiệm: </span>từng tham gia test web thương mại điện tử, thích tối ưu flow.</p>
+                </div>
+                <div class="list-container-table-row">
+                    <p class="list-container-table-row-text name">Hoàng Văn Phát</p>
+                    <p class="list-container-table-row-text email"><span>Email: </span>phat.hv@example.com</p>
+                    <p class="list-container-table-row-text phone"><span>SĐT: </span>0912345678</p>
+                    <p class="list-container-table-row-text desc"><span>Kinh nghiệm: </span>Có kinh nghiệm test API, quan tâm đến hiệu năng.</p>
+                </div>
+                <div class="list-container-table-row">
+                    <p class="list-container-table-row-text name">Ngô Thanh Thảo</p>
+                    <p class="list-container-table-row-text email"><span>Email: </span>thao.nt@example.com</p>
+                    <p class="list-container-table-row-text phone"><span>SĐT: </span>0912345678</p>
+                    <p class="list-container-table-row-text desc"><span>Kinh nghiệm: </span>thích test các ứng dụng giáo dục, cẩn thận và tỉ mỉ.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="inner-foot container">
+            <div class="foot-main">
+                <div class="logo-box">
+                    <img src="img/logotesting-removebg-preview.png" alt="logo" class="logo">
+                    <div class="foot-text">Mỗi đăng ký là một khởi đầu mới.</div>
+                </div>
+                <div class="foot-content">
+                    <div class="content">
+                        <div class="foot-text">Liên hệ:</div>
+                        <div class="foot-text">funnyguild@gmail.com</div>
+                        <div class="foot-text">0123123789</div>
+                    </div>
+                    <div class="icon">
+                        <img src="img/instagram.svg" alt="icon">
+                        <img src="img/twitter.svg" alt="icon">
+                        <img src="img/in.svg" alt="icon">
+                    </div>
+                </div>
+            </div>
+            <div class="foot-line"></div>
+            <div class="foot-text">&copy; 2025 TESTING . All rights reserved</div>
+        </div>
+    </footer>
+</body>
 </html>
