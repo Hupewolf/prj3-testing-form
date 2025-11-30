@@ -85,8 +85,6 @@ body{
     display: none;
 }
 
-
-
 @media(max-width:768px){
     .list-container-table{
         background-color: transparent;
