@@ -107,6 +107,17 @@ form div:nth-of-type(2) {
     color: #F8F9FA;
     background: #112D4E;
     border-radius: 12px;
+    border: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(1);
 }
 
 .formSection .wrapper .right {
@@ -153,5 +164,14 @@ form div:nth-of-type(2) {
 @media screen and (max-width: 950px) {
     .formSection .wrapper .right {
         display: none;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    h1 {
+        font-size: 24px;
+    }
+    .list-container-tittle {
+        font-size: 24px;
     }
 }
