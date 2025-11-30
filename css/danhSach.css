@@ -85,6 +85,9 @@
 }
 
 @media(max-width:768px){
+    #result {
+        width: 100%;
+    }
     .list-container-table{
         background-color: transparent;
         display: flex;

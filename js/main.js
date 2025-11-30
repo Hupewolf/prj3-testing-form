@@ -17,9 +17,9 @@ form.addEventListener("submit", function(e) {
 
     box.innerHTML = `
         <p class="list-container-table-row-text name">${first} ${name}</p>
-        <p class="list-container-table-row-text email">${email}</p>
-        <p class="list-container-table-row-text phone">${phone}</p>
-        <p class="list-container-table-row-text desc">${note}</p>
+        <p class="list-container-table-row-text email"><span>Email: </span>${email}</p>
+        <p class="list-container-table-row-text phone"><span>SĐT: </span>${phone}</p>
+        <p class="list-container-table-row-text desc"><span>Kinh nghiệm: </span>${note}</p>
     `;
 
     // Thêm vào danh sách
